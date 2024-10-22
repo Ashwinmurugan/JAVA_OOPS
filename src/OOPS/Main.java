@@ -26,7 +26,13 @@ public class Main {
         System.out.println("\nFaculty Details:");
         faculty.Display();
 
+        System.out.println();
 
+        System.out.println("---- Multiple Inheritance Interface---- ");
+      //Multiple_Inheritance m1=new Multiple_Inheritance();  bez interface is abstract
+        Cat c=new Cat();
+        c.sound();
+        c.greet();
     }
 }
 
